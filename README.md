@@ -18,7 +18,7 @@ API 키 설정 : OpenAI API에 연결하기 위해 API키가 필요함.<br>
 텍스트 생성 : generate_image 함수에서는 DALL⋅E3 모델을 사용하여 사용자의 입력 텍스트를 기반으로 이미지를 생성.</h4>
 
 <h2>웹사이트 이미지</h2>
-![스크린샷 2023-11-29 160025](https://github.com/KyungMins/EWA_Project/assets/105298039/b658aa01-7588-4110-9bac-3b4de1b4ba48)
+<img width="80%" src="https://github.com/KyungMins/EWA_Project/assets/105298039/b658aa01-7588-4110-9bac-3b4de1b4ba48"/>
 
 <h2>사용 방법</h2>
 <h3>시작하기<h3>
