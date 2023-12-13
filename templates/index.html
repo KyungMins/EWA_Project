@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap"
+    />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Noto Sans KR", sans-serif;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(to right, #ffdde1, #eeffdd);
+      }
+
+      .container {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+        padding: 20px;
+        margin: 20px; /* 외부 여백 추가 */
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Noto Sans KR", sans-serif;
+        gap: 10px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      label {
+        color: #666;
+        font-size: 18px;
+      }
+
+      input,
+      button {
+        width: 200px;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        font-family: "Noto Sans KR", sans-serif;
+      }
+
+      input {
+        border: 1px solid #ccc;
+        padding-left: 8px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+    <title>간편 글쓰기</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>간편 글쓰기</h1>
+      <form action="/process" method="post">
+        <label for="topic">주제를 입력하세요</label>
+        <input type="text" id="topic" name="topic" required />
+        <button type="submit">생성하기</button>
+      </form>
+    </div>
+  </body>
+</html>
