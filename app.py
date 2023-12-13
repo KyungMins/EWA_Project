@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # OpenAI API 키 설정
-openai.api_key = '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'
+openai.api_key = 'YOUE_OPENAIAPI_KEY'
 
 def generate_text(prompt):
     # GPT-3.5를 사용하여 텍스트 생성
